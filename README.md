@@ -24,7 +24,7 @@ pip install reportlab
 
 ## Clona il repository:
 
-git clone https://github.com/yourusername/ai-act-compliance-tool.git
+git clone https://github.com/francescobrina/ai-act-compliance-tool.git
 
 
 ## Installa le dipendenze:
@@ -59,13 +59,12 @@ Al termine della valutazione, l'applicazione mostrerà il livello di rischio e i
 
 Salva la valutazione in formato JSON per riprendere la sessione in un secondo momento.
 
-Struttura del Codice
+## Struttura del Codice
 main.py: punto di ingresso dell'applicazione, avvia la GUI.
 gui.py: contiene la logica dell'interfaccia utente (Tkinter).
 data.py: contiene la classe DataManager con le domande, la logica di valutazione del rischio e la gestione delle risorse.
 utils.py: contiene la funzione generate_pdf_report per generare il report in formato PDF.
 questions.json (opzionale): file JSON contenente le domande personalizzate, se presente.
-resources.txt (opzionale): file di testo contenente risorse aggiuntive sul tema dell'AI Act.
 
 
 ## Contribuire
