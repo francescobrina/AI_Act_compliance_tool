@@ -20,7 +20,7 @@ L'**AI ACT Compliance Tool** è un'applicazione Python sviluppata per assistere 
 È possibile installare i moduli richiesti tramite `pip`:
   
 pip install reportlab
-Installazione
+
 
 ## Clona il repository:
 
